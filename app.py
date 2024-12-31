@@ -40,7 +40,7 @@ def calcular_similitud(producto_base_idx, data, productos_base_idx, umbral_simil
     return recomendados
 
 # Interfaz principal
-st.title('Recomendación de Productos por Similitud de Coseno')
+st.title('Recomendación de Productos')
 st.write('Busque productos por nombre o marca para encontrar recomendaciones.')
 
 # Entrada de búsqueda del producto base
